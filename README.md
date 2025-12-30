@@ -1,6 +1,11 @@
 # 🐹 Hamster Robot: Autonomous Maze Solver
 An autonomous robotics project that utilizes the A* Search algorithm and infrared proximity sensors to navigate, map, and solve complex 5x7 grid mazes. 
 
+<video controls width="640" height="360">
+  <source src="maze-solving.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video.</p>
+</video>
+
 # 🌟 Key Features
 * **Optimistic A\* Exploration:** The robot begins with an empty map and uses A* to calculate the shortest path to the goal based on "known" facts. As it discovers walls, it dynamically replans its route in real-time.
 * **Haptic-Style Alignment:** To overcome mechanical drift and sensor noise, I implemented a "Back-and-Forth" alignment routine. The robot physically aligns itself against walls to reset its coordinate precision.
